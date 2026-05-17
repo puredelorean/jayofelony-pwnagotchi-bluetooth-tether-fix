@@ -1,6 +1,6 @@
 
 
-# Bluetooth tethering fix for Jayofelony's Pwnagotchi
+# Bluetooth tethering for Jayofelony's Pwnagotchi
 Im not responsible for any damage, I'm just sharing what worked for ME. Only do this if you know what you're doing.
 
 Basically if you're like me and can't seem to get the connection of Jayofelony's Pwnagotchi Image to last more than a few seconds then this is for you. All this script does is connect to your phone on boot. I found out that `sudo bt-network -c "mac:address:of:phone"  nap &` held the connection just how I wanted unlike with `bluetoothctl`. YES I have gone through countless fixes but none really worked. I tried it on my Nothing (4a) and I might try it on my iPhone 4 running ios 6.
