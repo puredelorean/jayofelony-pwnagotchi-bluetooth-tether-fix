@@ -7,7 +7,7 @@ Basically if you're like me and can't seem to get the connection of Jayofelony's
 
 * Uses `setsid` to detach the connection process so it doesn't drop when the boot terminal switches.
 * Uses a scanning loop to wait out the Network Manager's boot-time interface resets.
-* Automatically gives an IP address so the pwnagotchi is visible on portdroid (I use portdroid to get the IP of the pwny)
+* Automatically gives an IP address so the pwnagotchi is visible on Ning or anything to find it's ip address (I suggest [Ning (Open Source AND Rootless](https://github.com/csicar/Ning)
 
 ## Prerequisites
 - **Bluetooth Tethering ON in your phone**. Not sure if the blueotooth tethering option in the `config.toml` being `true` helped but I did that. Don't forget to set the config toml to either android or ios.
