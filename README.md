@@ -14,6 +14,8 @@ Basically if you're like me and can't seem to get the connection of Jayofelony's
 - Must have SSH'd and paired into the pwnagotchi and have **paired, trusted your mac address just once**. For that (in pwnagotchi), `sudo bluetoothctl`, `scan on`, `pair <mac>`, `trust <mac>`.
 - A linux machine (optional) if you can't ssh into it so you can just plug the sd in and modify and make changes via rootfs and bootfs
 
+Also just so you know, `.local` does not work you're gonna have to stick to the IP that you find on Ning or any other app.
+
 ---
 
 ## Create the Connection Script
