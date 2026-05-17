@@ -18,7 +18,7 @@ Basically if you're like me and can't seem to get the connection of Jayofelony's
 
 ## Create the Connection Script
 
-Create a script at `/usr/local/bin/bt-scan-connect.sh`, don't forget to replace the mac address with your phone's.
+Create a script at `/usr/local/bin/bt-scan-connect.sh`, **don't forget to replace the mac address with your phone's**.
 
 ```bash
 #!/bin/bash
